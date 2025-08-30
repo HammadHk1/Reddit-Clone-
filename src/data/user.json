@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "abc",
+      "password": "abc123",
+      "email": "abc@example.com",
+      "karma": 125,
+      "profilePicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "joinedDate": "2023-03-15",
+      "posts": [
+        {
+          "id": "post_abc_1",
+          "title": "Why React Hooks Changed Everything for Frontend Development",
+          "content": "After using class components for years, switching to React Hooks felt like a revolution. The simplicity of useState and useEffect, combined with custom hooks, has made my code so much cleaner and more maintainable. No more 'this' binding issues!",
+          "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
+          "subreddit": "reactjs",
+          "upvotes": 87,
+          "downvotes": 3,
+          "comments": 15,
+          "createdAt": "2024-01-15T10:30:00Z",
+          "tags": ["react", "hooks", "frontend", "javascript"]
+        },
+        {
+          "id": "post_abc_2",
+          "title": "My Experience with Next.js 14 - Server Components are Game Changers",
+          "content": "Just migrated our project to Next.js 14 and the performance improvements are incredible. Server Components reduce bundle size significantly and the new App Router is much more intuitive than pages router.",
+          "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
+          "subreddit": "nextjs",
+          "upvotes": 64,
+          "downvotes": 2,
+          "comments": 12,
+          "createdAt": "2024-01-12T14:20:00Z",
+          "tags": ["nextjs", "react", "performance", "ssr"]
+        },
+        {
+          "id": "post_abc_3",
+          "title": "Building a Reddit Clone with React and Redux - My Learning Journey",
+          "content": "Started building a Reddit clone to practice my React skills. Learned so much about state management with Redux Toolkit, component composition, and responsive design. The dev community has been incredibly helpful!",
+          "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
+          "subreddit": "webdev",
+          "upvotes": 42,
+          "downvotes": 1,
+          "comments": 8,
+          "createdAt": "2024-01-08T16:45:00Z",
+          "tags": ["react", "redux", "webdev", "project"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "bcd",
+      "password": "bcd123",
+      "email": "bcd@example.com",
+      "karma": 89,
+      "profilePicture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+      "joinedDate": "2023-05-20",
+      "posts": [
+        {
+          "id": "post_bcd_1",
+          "title": "React Performance Optimization Tips I Wish I Knew Earlier",
+          "content": "After debugging performance issues in a large React app, here are my top tips: use React.memo wisely, implement virtual scrolling for long lists, leverage useCallback and useMemo appropriately, and always profile with React DevTools.",
+          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
+          "subreddit": "reactjs",
+          "upvotes": 156,
+          "downvotes": 5,
+          "comments": 28,
+          "createdAt": "2024-01-14T09:15:00Z",
+          "tags": ["react", "performance", "optimization", "webdev"]
+        },
+        {
+          "id": "post_bcd_2",
+          "title": "TypeScript + React = ❤️ - How Strong Typing Improved Our Codebase",
+          "content": "Migrated our React codebase to TypeScript and the benefits are enormous. Fewer runtime errors, better IDE support, and self-documenting code. The initial setup is worth it for long-term maintainability.",
+          "image": "https://images.unsplash.com/photo-1581276879432-15e50529f34b?w=600&h=400&fit=crop",
+          "subreddit": "typescript",
+          "upvotes": 92,
+          "downvotes": 4,
+          "comments": 18,
+          "createdAt": "2024-01-10T13:40:00Z",
+          "tags": ["typescript", "react", "programming", "webdev"]
+        },
+        {
+          "id": "post_bcd_3",
+          "title": "My Custom React Hook Library for Everyday Use",
+          "content": "Built a collection of custom React hooks that I use in every project - useLocalStorage, useFetch, useInterval, and useEventListener. Sharing the GitHub repo in comments if anyone wants to contribute!",
+          "image": "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?w=600&h=400&fit=crop",
+          "subreddit": "reactjs",
+          "upvotes": 73,
+          "downvotes": 2,
+          "comments": 22,
+          "createdAt": "2024-01-07T11:20:00Z",
+          "tags": ["react", "hooks", "opensource", "javascript"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "username": "cde",
+      "password": "cde123",
+      "email": "cde@example.com",
+      "karma": 203,
+      "profilePicture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+      "joinedDate": "2023-01-10",
+      "posts": [
+        {
+          "id": "post_cde_1",
+          "title": "React vs Vue vs Angular - My Experience After Using All Three",
+          "content": "After building production apps with React, Vue, and Angular, here's my honest comparison. React's ecosystem is unmatched, Vue has the best developer experience, Angular is great for enterprise. Each has its place!",
+          "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop",
+          "subreddit": "webdev",
+          "upvotes": 214,
+          "downvotes": 12,
+          "comments": 45,
+          "createdAt": "2024-01-13T15:30:00Z",
+          "tags": ["react", "vue", "angular", "comparison", "frameworks"]
+        },
+        {
+          "id": "post_cde_2",
+          "title": "How I Built a Real-time Chat App with React and Socket.io",
+          "content": "Documenting my journey building a real-time chat application. Used React for the frontend, Socket.io for real-time communication, and Node.js backend. Learned so much about WebSockets and state synchronization!",
+          "image": "https://images.unsplash.com/photo-1579546929662-711aa81148cf?w=600&h=400&fit=crop",
+          "subreddit": "reactjs",
+          "upvotes": 128,
+          "downvotes": 3,
+          "comments": 31,
+          "createdAt": "2024-01-09T18:20:00Z",
+          "tags": ["react", "socketio", "realtime", "websockets", "nodejs"]
+        },
+        {
+          "id": "post_cde_3",
+          "title": "The Future of React - Server Components, RSC, and Beyond",
+          "content": "With React Server Components becoming more mainstream, let's discuss where React is heading. The line between frontend and backend is blurring, and I'm excited about the possibilities for full-stack React development.",
+          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+          "subreddit": "reactjs",
+          "upvotes": 95,
+          "downvotes": 6,
+          "comments": 37,
+          "createdAt": "2024-01-06T12:10:00Z",
+          "tags": ["react", "future", "servercomponents", "rsc", "trends"]
+        }
+      ]
+    }
+  ],
+  "subreddits": [
+    {
+      "name": "reactjs",
+      "description": "A community for learning and developing web applications using React JS",
+      "members": 250000,
+      "icon": "⚛️"
+    },
+    {
+      "name": "nextjs",
+      "description": "The React Framework for Production",
+      "members": 120000,
+      "icon": "▲"
+    },
+    {
+      "name": "webdev",
+      "description": "A community dedicated to all things web development",
+      "members": 1800000,
+      "icon": "💻"
+    },
+    {
+      "name": "typescript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output",
+      "members": 95000,
+      "icon": "📘"
+    }
+  ]
+}
