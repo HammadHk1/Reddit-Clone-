@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { authenticateUser } from '../../../utils/auth';
 import './Login.css';
-
+import logo from '../../../assets/logo.png';
 const Login = ({ onLogin }) => {
   const [formData, setFormData] = useState({
     username: '',
@@ -52,7 +52,8 @@ const Login = ({ onLogin }) => {
     <div className="login-container">
       <form onSubmit={handleSubmit} className="login-form">
         <h2>Login to Reddit Clone</h2>
-        
+        <img src={logo} alt="Reddit Clone Logo" />
+
         {error && <div className="error-message">{error}</div>}
         
         <div className="form-group">

@@ -2,9 +2,15 @@
   max-width: 400px;
   margin: 2rem auto;
   padding: 2rem;
-  border: 1px solid #ddd;
+  border: 1px solid #da952e;
   border-radius: 8px;
   background: white;
+  align-items: center;
+}
+.login-container img {
+  margin-left: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 .login-form h2 {
