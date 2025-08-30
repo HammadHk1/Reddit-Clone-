@@ -8,7 +8,7 @@
 }
 .footer p {
   font-weight: bold;
-  background-color: #ff3404;
+   background: linear-gradient(135deg, #ff4500 0%, #ff6b35 100%);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   color: white;
